@@ -1,0 +1,171 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="dark" style="font-weight: bold"
+        >What do you want to do with the recyclable waste?</ion-card-title
+      >
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-radio-group>
+        <ion-item>
+          <ion-label> I want to BUY it</ion-label>
+          <ion-radio value="CLIENT" slot="start"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label> I want to SELL it</ion-label>
+          <ion-radio value="PARTNER" slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="dark" style="font-weight: bold"
+        >Contact</ion-card-title
+      >
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Name"
+          labelPlacement="floating"
+          placeholder="Enter your name"
+          type="text"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Email"
+          labelPlacement="floating"
+          placeholder="Enter your email"
+          type="email"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Password"
+          labelPlacement="floating"
+          placeholder="Enter your password"
+          type="password"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Confirm Password"
+          labelPlacement="floating"
+          placeholder="Confirm your password"
+          type="password"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Phone number"
+          labelPlacement="floating"
+          placeholder="Enter your phone number"
+          type="tel"
+        ></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="dark" style="font-weight: bold"
+        >Address information</ion-card-title
+      >
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Address"
+          labelPlacement="floating"
+          placeholder="Enter your adress"
+          type="text"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Number"
+          labelPlacement="floating"
+          placeholder="Enter your number"
+          type="tel"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Neighborhood"
+          labelPlacement="floating"
+          placeholder="Enter your neighborhood"
+          type="text"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Complement"
+          labelPlacement="floating"
+          placeholder="Enter especifics"
+          type="text"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="Zip code"
+          labelPlacement="floating"
+          placeholder="Enter your zip code"
+          type="tel"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input
+          aria-label="Success input"
+          color="success"
+          label="City"
+          labelPlacement="floating"
+          placeholder="Enter your city"
+          type="text"
+        ></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button size="full" color="medium">Register</ion-button>
+</ion-content>
