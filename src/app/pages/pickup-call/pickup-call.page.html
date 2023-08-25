@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pickup call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img
+    src="https://motor.elpais.com/wp-content/uploads/2022/01/google-maps-22.jpg"
+  />
+
+  <ion-card>
+    <ion-card-content>
+      <p>Address: Fake street, 11</p>
+      <p>Complement: Apto 222</p>
+      <p>Neighborhood: neighborhood</p>
+      <p>Zip code: 1234</p>
+      <p>City name: State, City</p>
+
+      <ion-list>
+        <ion-item lines="inset">
+          <ion-label position="floating">Notes</ion-label>
+          <ion-textarea></ion-textarea>
+        </ion-item>
+      </ion-list>
+
+      <ion-button size="full" color="success"> CREATE PICKUP CALL</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
